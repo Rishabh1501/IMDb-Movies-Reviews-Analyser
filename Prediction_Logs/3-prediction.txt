@@ -1,0 +1,168 @@
+08/07/2021, 20:16:38 -> INFO: Sentence Cleaned!!
+08/07/2021, 20:16:38 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 20:16:38 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 20:16:38 -> INFO: Prediction Successful!!
+08/07/2021, 20:20:27 -> INFO: Sentence Cleaned!!
+08/07/2021, 20:20:27 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 20:20:27 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 20:20:27 -> INFO: Prediction Successful!!
+08/07/2021, 20:20:40 -> INFO: Sentence Cleaned!!
+08/07/2021, 20:20:40 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 20:20:40 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 20:20:40 -> INFO: Prediction Successful!!
+08/07/2021, 20:23:43 -> INFO: Sentence Cleaned!!
+08/07/2021, 20:23:43 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 20:23:43 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 20:23:43 -> INFO: Prediction Successful!!
+08/07/2021, 20:30:00 -> INFO: Sentence Cleaned!!
+08/07/2021, 20:30:00 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 20:30:00 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 20:30:00 -> INFO: Prediction Successful!!
+08/07/2021, 20:31:22 -> INFO: Sentence Cleaned!!
+08/07/2021, 20:31:23 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 20:31:23 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 20:31:23 -> INFO: Prediction Successful!!
+08/07/2021, 20:31:39 -> INFO: Sentence Cleaned!!
+08/07/2021, 20:31:39 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 20:31:39 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 20:31:39 -> INFO: Prediction Successful!!
+08/07/2021, 20:54:05 -> INFO: Sentence Cleaned!!
+08/07/2021, 20:54:05 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 20:54:05 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 20:54:05 -> INFO: Prediction Successful!!
+08/07/2021, 20:55:13 -> INFO: Sentence Cleaned!!
+08/07/2021, 20:55:13 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 20:55:13 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 20:55:13 -> INFO: Prediction Successful!!
+08/07/2021, 20:56:38 -> INFO: Sentence Cleaned!!
+08/07/2021, 20:56:38 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 20:56:38 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 20:56:38 -> INFO: Prediction Successful!!
+08/07/2021, 20:57:41 -> INFO: Sentence Cleaned!!
+08/07/2021, 20:57:41 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 20:57:41 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 20:57:41 -> INFO: Prediction Successful!!
+08/07/2021, 20:59:33 -> INFO: Sentence Cleaned!!
+08/07/2021, 20:59:33 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 20:59:33 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 20:59:33 -> INFO: Prediction Successful!!
+08/07/2021, 21:00:05 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:00:05 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:00:05 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:00:05 -> INFO: Prediction Successful!!
+08/07/2021, 21:00:18 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:00:18 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:00:18 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:00:18 -> INFO: Prediction Successful!!
+08/07/2021, 21:00:31 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:00:31 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:00:31 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:00:31 -> INFO: Prediction Successful!!
+08/07/2021, 21:00:40 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:00:40 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:00:40 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:00:40 -> INFO: Prediction Successful!!
+08/07/2021, 21:01:48 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:01:48 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:01:48 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:01:48 -> INFO: Prediction Successful!!
+08/07/2021, 21:02:56 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:02:56 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:02:56 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:02:56 -> INFO: Prediction Successful!!
+08/07/2021, 21:13:22 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:13:22 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:13:22 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:13:22 -> ERROR: function predict_model_sentence: 'LinearSVC' object has no attribute 'predict_proba'
+08/07/2021, 21:14:30 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:14:30 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:14:30 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:14:30 -> ERROR: function predict_model_sentence: 'LinearSVC' object has no attribute 'predict_proba'
+08/07/2021, 21:14:47 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:14:47 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:14:47 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:14:47 -> INFO: Prediction Successful!!
+08/07/2021, 21:15:31 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:15:31 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:15:31 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:15:31 -> INFO: Prediction Successful!!
+08/07/2021, 21:15:57 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:15:57 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:15:57 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:15:57 -> INFO: Prediction Successful!!
+08/07/2021, 21:16:38 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:16:39 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:16:39 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:16:39 -> INFO: Prediction Successful!!
+08/07/2021, 21:18:01 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:18:01 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:18:01 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:18:01 -> INFO: Prediction Successful!!
+08/07/2021, 21:18:36 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:18:36 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:18:36 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:18:36 -> INFO: Prediction Successful!!
+08/07/2021, 21:20:05 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:20:05 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:20:05 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:20:05 -> INFO: Prediction Successful!!
+08/07/2021, 21:20:41 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:20:41 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:20:41 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:20:41 -> INFO: Prediction Successful!!
+08/07/2021, 21:21:03 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:21:03 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:21:03 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:21:03 -> INFO: Prediction Successful!!
+08/07/2021, 21:21:38 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:21:38 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:21:38 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:21:38 -> INFO: Prediction Successful!!
+08/07/2021, 21:22:17 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:22:18 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:22:18 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:22:18 -> INFO: Prediction Successful!!
+08/07/2021, 21:22:29 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:22:29 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:22:29 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:22:29 -> INFO: Prediction Successful!!
+08/07/2021, 21:24:03 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:24:03 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:24:03 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:24:03 -> INFO: Prediction Successful!!
+08/07/2021, 21:24:25 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:24:25 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:24:25 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:24:25 -> INFO: Prediction Successful!!
+08/07/2021, 21:25:04 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:25:04 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:25:04 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:25:04 -> INFO: Prediction Successful!!
+08/07/2021, 21:25:31 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:25:31 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:25:31 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:25:31 -> INFO: Prediction Successful!!
+08/07/2021, 21:25:40 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:25:40 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:25:40 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:25:40 -> INFO: Prediction Successful!!
+08/07/2021, 21:31:36 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:31:36 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:31:36 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:31:36 -> INFO: Prediction Successful!!
+08/07/2021, 21:32:46 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:32:46 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:32:46 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:32:46 -> INFO: Prediction Successful!!
+08/07/2021, 21:34:56 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:34:56 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:34:56 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:34:56 -> INFO: Prediction Successful!!
+08/07/2021, 21:38:59 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:38:59 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:38:59 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:38:59 -> INFO: Prediction Successful!!
+08/07/2021, 21:43:12 -> INFO: Sentence Cleaned!!
+08/07/2021, 21:43:12 -> INFO: Vector model loaded Successfully!!
+08/07/2021, 21:43:12 -> INFO: Naive Bayes model loaded Successfully!!
+08/07/2021, 21:43:12 -> INFO: Prediction Successful!!

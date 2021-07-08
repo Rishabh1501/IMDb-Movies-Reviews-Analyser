@@ -1,0 +1,65 @@
+08/07/2021, 20:16:25 -> INFO: Entered function vectorize!
+08/07/2021, 20:16:25 -> INFO: Using Default CSV File
+08/07/2021, 20:16:26 -> INFO: Making a TfidfVectorizer Model
+08/07/2021, 20:16:26 -> INFO: Fitting the TfidfVectorizer Model
+08/07/2021, 20:16:32 -> INFO: Saving Model at Default path: Training_Data\vectorize.pickle
+08/07/2021, 20:16:32 -> INFO: Model Saved Successfully!!!
+08/07/2021, 20:16:37 -> INFO: Successfully Transformed x!!
+08/07/2021, 20:16:37 -> INFO: Entered function train_model
+08/07/2021, 20:16:38 -> INFO: Split the data in train and test
+08/07/2021, 20:16:38 -> INFO: Created the model and fitted it to train data
+08/07/2021, 20:16:38 -> INFO: Saving Model at Default Path: Training_Data\model.sav
+08/07/2021, 20:16:38 -> INFO: Model Saved Successfully!!!
+08/07/2021, 20:16:38 -> INFO: Successfully Predicted with test data: F1 scores-> positive=0.86 negative=0.86 Weighted=0.86
+08/07/2021, 20:29:48 -> INFO: Entered function vectorize!
+08/07/2021, 20:29:48 -> INFO: Using Default CSV File
+08/07/2021, 20:29:49 -> INFO: Making a TfidfVectorizer Model
+08/07/2021, 20:29:49 -> INFO: Fitting the TfidfVectorizer Model
+08/07/2021, 20:29:54 -> INFO: Saving Model at Default path: Training_Data\vectorize.pickle
+08/07/2021, 20:29:54 -> INFO: Model Saved Successfully!!!
+08/07/2021, 20:29:59 -> INFO: Successfully Transformed x!!
+08/07/2021, 20:29:59 -> INFO: Entered function train_model
+08/07/2021, 20:29:59 -> INFO: Split the data in train and test
+08/07/2021, 20:29:59 -> INFO: Created the model and fitted it to train data
+08/07/2021, 20:29:59 -> INFO: Saving Model at Default Path: Training_Data\model.sav
+08/07/2021, 20:29:59 -> INFO: Model Saved Successfully!!!
+08/07/2021, 20:30:00 -> INFO: Successfully Predicted with test data: F1 scores-> positive=0.86 negative=0.86 Weighted=0.86
+08/07/2021, 20:51:15 -> INFO: Entered function vectorize!
+08/07/2021, 20:51:15 -> INFO: Using Default CSV File
+08/07/2021, 20:51:15 -> INFO: Making a TfidfVectorizer Model
+08/07/2021, 20:51:15 -> INFO: Fitting the TfidfVectorizer Model
+08/07/2021, 20:51:20 -> INFO: Saving Model at Default path: Training_Data\vectorize.pickle
+08/07/2021, 20:51:20 -> INFO: Model Saved Successfully!!!
+08/07/2021, 20:51:25 -> INFO: Successfully Transformed x!!
+08/07/2021, 20:51:25 -> INFO: Entered function train_model
+08/07/2021, 20:51:25 -> INFO: Split the data in train and test
+08/07/2021, 20:51:25 -> INFO: Created the model and fitted it to train data
+08/07/2021, 20:51:25 -> INFO: Saving Model at Default Path: Training_Data\model.sav
+08/07/2021, 20:51:25 -> INFO: Model Saved Successfully!!!
+08/07/2021, 20:51:25 -> ERROR: Function train_model: pos_label=negative is not a valid label. It should be one of [0, 1]
+08/07/2021, 21:13:11 -> INFO: Entered function vectorize!
+08/07/2021, 21:13:11 -> INFO: Using Default CSV File
+08/07/2021, 21:13:11 -> INFO: Making a TfidfVectorizer Model
+08/07/2021, 21:13:11 -> INFO: Fitting the TfidfVectorizer Model
+08/07/2021, 21:13:16 -> INFO: Saving Model at Default path: Training_Data\vectorize.pickle
+08/07/2021, 21:13:16 -> INFO: Model Saved Successfully!!!
+08/07/2021, 21:13:21 -> INFO: Successfully Transformed x!!
+08/07/2021, 21:13:21 -> INFO: Entered function train_model
+08/07/2021, 21:13:21 -> INFO: Split the data in train and test
+08/07/2021, 21:13:22 -> INFO: Created the model and fitted it to train data
+08/07/2021, 21:13:22 -> INFO: Saving Model at Default Path: Training_Data\svc_model.sav
+08/07/2021, 21:13:22 -> INFO: Model Saved Successfully!!!
+08/07/2021, 21:13:22 -> INFO: Successfully Predicted with test data: F1 scores-> positive=0.89 negative=0.89 Weighted=0.89
+08/07/2021, 21:31:25 -> INFO: Entered function vectorize!
+08/07/2021, 21:31:25 -> INFO: Using Default CSV File
+08/07/2021, 21:31:25 -> INFO: Making a TfidfVectorizer Model
+08/07/2021, 21:31:25 -> INFO: Fitting the TfidfVectorizer Model
+08/07/2021, 21:31:30 -> INFO: Saving Model at Default path: Training_Data\vectorize.pickle
+08/07/2021, 21:31:30 -> INFO: Model Saved Successfully!!!
+08/07/2021, 21:31:34 -> INFO: Successfully Transformed x!!
+08/07/2021, 21:31:34 -> INFO: Entered function train_model
+08/07/2021, 21:31:34 -> INFO: Split the data in train and test
+08/07/2021, 21:31:35 -> INFO: Created the model and fitted it to train data
+08/07/2021, 21:31:35 -> INFO: Saving Model at Default Path: Training_Data\svc_model.sav
+08/07/2021, 21:31:35 -> INFO: Model Saved Successfully!!!
+08/07/2021, 21:31:36 -> INFO: Successfully Predicted with test data: F1 scores-> positive=0.89 negative=0.89 Weighted=0.89

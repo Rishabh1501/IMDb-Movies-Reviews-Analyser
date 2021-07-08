@@ -1,0 +1,4 @@
+07/07/2021, 18:57:25 -> Custom text: This is for testing - 1
+07/07/2021, 18:57:25 -> INFO: This is for testing
+07/07/2021, 18:57:25 -> WARNING: This is for testing
+07/07/2021, 18:57:25 -> ERROR: This is for testing
