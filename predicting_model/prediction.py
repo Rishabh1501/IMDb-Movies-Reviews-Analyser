@@ -4,6 +4,7 @@ import pickle
 import joblib
 import numpy as np
 import pandas as pd
+from flask import jsonify
 
 # importing custom packages
 from Logging.logger import Logging
@@ -96,6 +97,7 @@ class PredictAPI:
             #     print("UNKNOWN")
 
             self.log.info("Prediction Successful!!")
+            return y_predict[0]
 
         except Exception as e:
             self.log.error(f"function predict_model_sentence: {e}")

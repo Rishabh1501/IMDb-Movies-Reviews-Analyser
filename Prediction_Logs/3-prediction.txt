@@ -166,3 +166,40 @@
 08/07/2021, 21:43:12 -> INFO: Vector model loaded Successfully!!
 08/07/2021, 21:43:12 -> INFO: Naive Bayes model loaded Successfully!!
 08/07/2021, 21:43:12 -> INFO: Prediction Successful!!
+09/07/2021, 14:45:23 -> INFO: Sentence Cleaned!!
+09/07/2021, 14:45:23 -> INFO: Vector model loaded Successfully!!
+09/07/2021, 14:45:23 -> INFO: Naive Bayes model loaded Successfully!!
+09/07/2021, 14:45:24 -> INFO: Prediction Successful!!
+09/07/2021, 14:45:24 -> ERROR: function predict_model_sentence: Object of type ndarray is not JSON serializable
+09/07/2021, 14:46:12 -> INFO: Sentence Cleaned!!
+09/07/2021, 14:46:12 -> INFO: Vector model loaded Successfully!!
+09/07/2021, 14:46:12 -> INFO: Naive Bayes model loaded Successfully!!
+09/07/2021, 14:46:12 -> INFO: Prediction Successful!!
+09/07/2021, 14:47:17 -> INFO: Sentence Cleaned!!
+09/07/2021, 14:47:17 -> INFO: Vector model loaded Successfully!!
+09/07/2021, 14:47:17 -> INFO: Naive Bayes model loaded Successfully!!
+09/07/2021, 14:47:17 -> INFO: Prediction Successful!!
+09/07/2021, 14:47:23 -> INFO: Sentence Cleaned!!
+09/07/2021, 14:47:23 -> INFO: Vector model loaded Successfully!!
+09/07/2021, 14:47:23 -> INFO: Naive Bayes model loaded Successfully!!
+09/07/2021, 14:47:23 -> INFO: Prediction Successful!!
+09/07/2021, 14:47:33 -> INFO: Sentence Cleaned!!
+09/07/2021, 14:47:33 -> INFO: Vector model loaded Successfully!!
+09/07/2021, 14:47:33 -> INFO: Naive Bayes model loaded Successfully!!
+09/07/2021, 14:47:33 -> INFO: Prediction Successful!!
+09/07/2021, 14:47:37 -> INFO: Sentence Cleaned!!
+09/07/2021, 14:47:37 -> INFO: Vector model loaded Successfully!!
+09/07/2021, 14:47:37 -> INFO: Naive Bayes model loaded Successfully!!
+09/07/2021, 14:47:37 -> INFO: Prediction Successful!!
+09/07/2021, 14:47:39 -> INFO: Sentence Cleaned!!
+09/07/2021, 14:47:39 -> INFO: Vector model loaded Successfully!!
+09/07/2021, 14:47:39 -> INFO: Naive Bayes model loaded Successfully!!
+09/07/2021, 14:47:39 -> INFO: Prediction Successful!!
+09/07/2021, 14:47:42 -> INFO: Sentence Cleaned!!
+09/07/2021, 14:47:42 -> INFO: Vector model loaded Successfully!!
+09/07/2021, 14:47:42 -> INFO: Naive Bayes model loaded Successfully!!
+09/07/2021, 14:47:42 -> INFO: Prediction Successful!!
+09/07/2021, 14:47:54 -> INFO: Sentence Cleaned!!
+09/07/2021, 14:47:54 -> INFO: Vector model loaded Successfully!!
+09/07/2021, 14:47:54 -> INFO: Naive Bayes model loaded Successfully!!
+09/07/2021, 14:47:54 -> INFO: Prediction Successful!!

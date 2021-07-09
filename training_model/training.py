@@ -23,7 +23,7 @@ class TrainingAPI:
             os.mkdir(training_folder_path)
 
         if not cleaned_csv_path:
-            self.cleaned_csv_path = "cleaned_data.csv"
+            self.cleaned_csv_path = os.path.join("Cleaned_Csv_Files","cleaned_data.csv")
         else:
             self.cleaned_csv_path = cleaned_csv_path
 
