@@ -34,7 +34,24 @@ from data_cleaning.data_cleaning import Cleaner
 
 
 class PredictAPI:
-
+    """
+    Class to Predict and classify the sentences
+    
+    Keyword arguments: 
+        prediction_folder_path="Prediction_Data"
+        training_folder_path="Training_Data",
+        log_folder_name="Prediction_Logs",
+        log_file_name="3-prediction.txt"
+    
+    argument -- 
+        prediction_folder_path: Path to store the csv predictions (only valid if input given is a csv file).
+        training_folder_path: Folder path where models are stored.
+        log_folder_name: Specifies the folder for Training Logs.
+        log_file_name: Specifies the name of the log file.
+    
+    Return: None
+    """
+    
     def __init__(self, prediction_folder_path="Prediction_Data", training_folder_path="Training_Data",
                  log_folder_name="Prediction_Logs", log_file_name="3-prediction.txt"):
         self.prediction_folder_path = prediction_folder_path
@@ -48,6 +65,18 @@ class PredictAPI:
         self.log = Logging(os.path.join(log_folder_name, log_file_name))
 
     def clean_sentence(self, sentence):
+        """
+        cleans the sentence for prediction
+
+        Args:
+            sentence (string): sentence to be cleaned
+
+        Raises:
+            Exception: any Exception, check logs for specifics
+
+        Returns:
+            string: cleaned sentence
+        """
         try:
             sentence = self.cleaner.review_to_words(sentence)
             self.log.info("Sentence Cleaned!!")
@@ -57,6 +86,18 @@ class PredictAPI:
             raise Exception(e)
 
     def clean_csv_data(self, csv_path):
+        """cleans the csv data for prediction
+
+        Args:
+            csv_path (string/path): path to the csv file
+
+        Raises:
+            Exception: any Exception, check logs for specifics
+
+        Returns:
+            pandas.DataFrame: pandas DataFrame
+        """
+        
         try:
             df = self.data_input.ret_dataframe(csv_path)
             cleaned_df = self.cleaner.ret_cleaned_dataframe(df)
@@ -67,6 +108,21 @@ class PredictAPI:
             raise Exception(e)
 
     def predict_model_csv(self, dataframe, model_name="model.sav", vector_model="vectorize.pickle"):
+        """
+        predicts the output and stores in csv file
+
+        Args:
+            dataframe (pandas.DataFrame): DataFrame used for prediction
+            model_name (str, optional): name of the prediction model inside Training_Data Folder. Defaults to "model.sav".
+            vector_model (str, optional): name of the vector model inside Training_Data Folder. Defaults to "vectorize.pickle".
+
+        Raises:
+            Exception: any Exception, check logs for specifics
+            
+        Returns:
+            None
+        """
+        
         try:
             vector_path = os.path.join(self.training_folder_path, vector_model)
             model_path = os.path.join(self.training_folder_path, model_name)
@@ -94,6 +150,20 @@ class PredictAPI:
             raise Exception(e)
 
     def predict_model_sentence(self, sentence, model_name="svc_model.sav", vector_model="vectorize.pickle"):
+        """
+        predicts the output and returns it
+
+        Args:
+            sentence (string): sentence to be predicted.
+            model_name (str, optional): name of the prediction model inside Training_Data Folder. Defaults to "model.sav".
+            vector_model (str, optional): name of the vector model inside Training_Data Folder. Defaults to "vectorize.pickle".
+
+        Raises:
+            Exception: any Exception, check logs for specifics
+            
+        Returns:
+            str: predicted data
+        """
         try:
             df = pd.DataFrame([sentence], columns=['review'])
 

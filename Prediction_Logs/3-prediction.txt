@@ -203,3 +203,31 @@
 09/07/2021, 14:47:54 -> INFO: Vector model loaded Successfully!!
 09/07/2021, 14:47:54 -> INFO: Naive Bayes model loaded Successfully!!
 09/07/2021, 14:47:54 -> INFO: Prediction Successful!!
+18/07/2021, 21:23:14 -> INFO: Sentence Cleaned!!
+18/07/2021, 21:23:14 -> INFO: Vector model loaded Successfully!!
+18/07/2021, 21:23:14 -> INFO: Naive Bayes model loaded Successfully!!
+18/07/2021, 21:23:14 -> INFO: Prediction Successful!!
+18/07/2021, 21:23:27 -> INFO: Sentence Cleaned!!
+18/07/2021, 21:23:27 -> INFO: Vector model loaded Successfully!!
+18/07/2021, 21:23:27 -> INFO: Naive Bayes model loaded Successfully!!
+18/07/2021, 21:23:27 -> INFO: Prediction Successful!!
+18/07/2021, 21:23:49 -> INFO: Sentence Cleaned!!
+18/07/2021, 21:23:49 -> INFO: Vector model loaded Successfully!!
+18/07/2021, 21:23:49 -> INFO: Naive Bayes model loaded Successfully!!
+18/07/2021, 21:23:49 -> INFO: Prediction Successful!!
+18/07/2021, 21:24:25 -> INFO: Sentence Cleaned!!
+18/07/2021, 21:24:25 -> INFO: Vector model loaded Successfully!!
+18/07/2021, 21:24:25 -> INFO: Naive Bayes model loaded Successfully!!
+18/07/2021, 21:24:25 -> INFO: Prediction Successful!!
+18/07/2021, 21:26:33 -> INFO: Sentence Cleaned!!
+18/07/2021, 21:26:33 -> INFO: Vector model loaded Successfully!!
+18/07/2021, 21:26:33 -> INFO: Naive Bayes model loaded Successfully!!
+18/07/2021, 21:26:33 -> INFO: Prediction Successful!!
+18/07/2021, 21:27:21 -> INFO: Sentence Cleaned!!
+18/07/2021, 21:27:21 -> INFO: Vector model loaded Successfully!!
+18/07/2021, 21:27:21 -> INFO: Naive Bayes model loaded Successfully!!
+18/07/2021, 21:27:21 -> INFO: Prediction Successful!!
+18/07/2021, 21:27:36 -> INFO: Sentence Cleaned!!
+18/07/2021, 21:27:36 -> INFO: Vector model loaded Successfully!!
+18/07/2021, 21:27:36 -> INFO: Naive Bayes model loaded Successfully!!
+18/07/2021, 21:27:36 -> INFO: Prediction Successful!!

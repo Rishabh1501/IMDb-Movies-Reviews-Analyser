@@ -32,8 +32,8 @@ class DataInput:
     Keyword arguments: log_folder_name="Training_Logs", log_file_name="1-file_input.txt"
     
     argument -- 
-    log_folder_name: Specifies the folder for Training Logs
-    log_file_name: Specifies the name of the log file
+        log_folder_name: Specifies the folder for Training Logs
+        log_file_name: Specifies the name of the log file
     
     Return: None
     """   

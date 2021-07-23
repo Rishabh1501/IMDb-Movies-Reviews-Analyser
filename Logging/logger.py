@@ -24,8 +24,13 @@ from datetime import datetime
 
 class Logging:
     """
+    Class to log the progress of the project
+    
     Keyword arguments: None
-    argument -- file_path : location of the log file
+    
+    argument -- 
+        file_path : location of the log file
+    
     Return: None 
     """
     
@@ -39,6 +44,7 @@ class Logging:
     def log(self, message, log_type):
         """
         custom log method
+        
         Args:
             message -> str: message to be logged
             log_type -> str: type of message to be logged ,for example = ("info","error", etc..)
@@ -51,6 +57,7 @@ class Logging:
     def info(self, message, log_type="INFO"):
         """
         Info log method
+        
         Args:
             message -> str: message to be logged
             log_type -> str: INFO 
@@ -62,6 +69,7 @@ class Logging:
     def warning(self, message, log_type="WARNING"):
         """
         Warning log method
+        
         Args:
             message -> str: message to be logged
             log_type -> str: WARNING 
@@ -73,6 +81,7 @@ class Logging:
     def error(self, message, log_type="ERROR"):
         """
         Error log method
+        
         Args:
             message -> str: message to be logged
             log_type -> str: ERROR 

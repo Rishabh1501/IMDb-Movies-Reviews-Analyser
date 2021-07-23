@@ -35,6 +35,24 @@ from Logging.logger import Logging
 
 
 class TrainingAPI:
+    """
+    Class to Train the model
+    
+    Keyword arguments:
+        cleaned_csv_path=None,
+        training_folder_path="Training_Data",
+        log_folder_name="Training_Logs",
+        log_file_name="3-training_models.txt"
+        
+    argument --
+        cleaned_csv_path: path for the cleaned csv to be used for training
+        training_folder_path: Folder path where models are stored.
+        log_folder_name: Specifies the folder for Training Logs.
+        log_file_name: Specifies the name of the log file.
+    
+    Return: None
+    """
+    
 
     def __init__(self, cleaned_csv_path=None, training_folder_path="Training_Data",
                  log_folder_name="Training_Logs", log_file_name="3-training_models.txt"):
@@ -52,7 +70,20 @@ class TrainingAPI:
 
     def vectorize(self, cleaned_csv_path=None, vector_model_name="vectorize.pickle",
                   vector_save_path=None, folder_save=True):
+        """Function to create and save the vector model
 
+        Args:
+            cleaned_csv_path (str/path, optional): path to for the cleaned csv to be used for training. Defaults to None.
+            vector_model_name (str, optional): Name of the vector model. Defaults to "vectorize.pickle".
+            vector_save_path (str/path, optional): path to save vector model. Defaults to None.
+            folder_save (bool, optional): Whether to save the model or not, True->save the model, False->don't save the model. Defaults to True.
+
+        Raises:
+            Exception: any Exception, check logs for specifics
+
+        Returns:
+            sparse matrix: sparse matrix of transformed values
+        """
         try:
             self.log.info("Entered function vectorize!")
             if not cleaned_csv_path:
@@ -91,6 +122,21 @@ class TrainingAPI:
             raise Exception(e)
 
     def train_model(self, x_vector, y, train_model_name="svc_model.sav", model_save_path=None, folder_save=True):
+        """Function to train the model and save it
+
+        Args:
+            x_vector (sparse_matrix): output of the vector model.
+            y (pandas.DataFrame): output values for testing.
+            train_model_name (str, optional): name of the model. Defaults to "svc_model.sav".
+            model_save_path (str/path, optional): path to save the model. Defaults to None.
+            folder_save (bool, optional): Whether to save the model or not, True->save the model, False->don't save the model. Defaults to True.
+
+        Raises:
+            Exception: any Exception, check logs for specifics
+
+        Returns:
+            (str,str): confusion_matrix , classification_report  
+        """
 
         try:
             self.log.info("Entered function train_model")

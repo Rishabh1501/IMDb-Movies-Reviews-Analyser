@@ -34,6 +34,7 @@ from predicting_model.prediction import PredictAPI
 app = Flask(__name__)
 
 
+#API to train the model
 @app.route('/train', methods=["GET", "POST"])
 def train():
     data_input = DataInput()
@@ -62,15 +63,16 @@ def train():
         print(cl_report)
 
 
+#API to predict
 @app.route('/predict', methods=["POST", "GET"])
 def predict():
     prediction = PredictAPI()
 
-    if request.method == "POST":
+    if request.method == "POST":    
         json_data = request.json
         review = json_data["review"]
         clean_sentence = prediction.clean_sentence(review)
-        predicted_data = prediction.predict_model_sentence(review)
+        predicted_data = prediction.predict_model_sentence(clean_sentence)
         return predicted_data
     # positive = """I was honestly expecting much worse than what I received after watching this movie. I figured it was going to be supper cheesy and dumb. But it wasn't. It wasn't amazing. It wasn't perfect. But it was entertaining. And that's really all that matters when watching a movie isn't it? I enjoyed this movie, and you likely will as well if you are into sci-fi alien action movies."""
     #
