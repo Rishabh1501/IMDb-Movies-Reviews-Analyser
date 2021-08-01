@@ -231,3 +231,45 @@
 18/07/2021, 21:27:36 -> INFO: Vector model loaded Successfully!!
 18/07/2021, 21:27:36 -> INFO: Naive Bayes model loaded Successfully!!
 18/07/2021, 21:27:36 -> INFO: Prediction Successful!!
+31/07/2021, 17:44:25 -> ERROR: function clean_sentence: expected string or bytes-like object
+31/07/2021, 19:17:27 -> ERROR: function clean_sentence: expected string or bytes-like object
+31/07/2021, 19:18:07 -> INFO: Sentence Cleaned!!
+31/07/2021, 19:18:08 -> INFO: Vector model loaded Successfully!!
+31/07/2021, 19:18:08 -> INFO: Naive Bayes model loaded Successfully!!
+31/07/2021, 19:18:08 -> INFO: Prediction Successful!!
+31/07/2021, 19:18:37 -> INFO: Sentence Cleaned!!
+31/07/2021, 19:18:37 -> INFO: Vector model loaded Successfully!!
+31/07/2021, 19:18:37 -> INFO: Naive Bayes model loaded Successfully!!
+31/07/2021, 19:18:37 -> INFO: Prediction Successful!!
+31/07/2021, 19:19:29 -> INFO: Sentence Cleaned!!
+31/07/2021, 19:19:29 -> INFO: Vector model loaded Successfully!!
+31/07/2021, 19:19:29 -> INFO: Naive Bayes model loaded Successfully!!
+31/07/2021, 19:19:29 -> INFO: Prediction Successful!!
+31/07/2021, 19:19:38 -> INFO: Sentence Cleaned!!
+31/07/2021, 19:19:38 -> INFO: Vector model loaded Successfully!!
+31/07/2021, 19:19:38 -> INFO: Naive Bayes model loaded Successfully!!
+31/07/2021, 19:19:38 -> INFO: Prediction Successful!!
+01/08/2021, 19:06:37 -> INFO: Sentence Cleaned!!
+01/08/2021, 19:06:37 -> INFO: Vector model loaded Successfully!!
+01/08/2021, 19:06:38 -> INFO: Naive Bayes model loaded Successfully!!
+01/08/2021, 19:06:38 -> INFO: Prediction Successful!!
+01/08/2021, 19:08:07 -> INFO: Sentence Cleaned!!
+01/08/2021, 19:08:07 -> INFO: Vector model loaded Successfully!!
+01/08/2021, 19:08:07 -> INFO: Naive Bayes model loaded Successfully!!
+01/08/2021, 19:08:07 -> INFO: Prediction Successful!!
+01/08/2021, 19:08:30 -> INFO: Sentence Cleaned!!
+01/08/2021, 19:08:30 -> INFO: Vector model loaded Successfully!!
+01/08/2021, 19:08:30 -> INFO: Naive Bayes model loaded Successfully!!
+01/08/2021, 19:08:30 -> INFO: Prediction Successful!!
+01/08/2021, 19:08:41 -> INFO: Sentence Cleaned!!
+01/08/2021, 19:08:41 -> INFO: Vector model loaded Successfully!!
+01/08/2021, 19:08:41 -> INFO: Naive Bayes model loaded Successfully!!
+01/08/2021, 19:08:41 -> INFO: Prediction Successful!!
+01/08/2021, 19:08:52 -> INFO: Sentence Cleaned!!
+01/08/2021, 19:08:52 -> INFO: Vector model loaded Successfully!!
+01/08/2021, 19:08:52 -> INFO: Naive Bayes model loaded Successfully!!
+01/08/2021, 19:08:52 -> INFO: Prediction Successful!!
+01/08/2021, 19:09:00 -> INFO: Sentence Cleaned!!
+01/08/2021, 19:09:01 -> INFO: Vector model loaded Successfully!!
+01/08/2021, 19:09:01 -> INFO: Naive Bayes model loaded Successfully!!
+01/08/2021, 19:09:01 -> INFO: Prediction Successful!!

@@ -1,0 +1,2 @@
+31/07/2021, 17:44:25 -> ERROR: function review_to_words: expected string or bytes-like object
+31/07/2021, 19:17:27 -> ERROR: function review_to_words: expected string or bytes-like object

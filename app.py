@@ -22,7 +22,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 # importing libraries
 import os
 import pandas as pd
-from flask import Flask, request
+from flask import Flask, request, render_template
 
 # importing custom packages
 from data_import.data_input import DataInput
@@ -32,6 +32,11 @@ from predicting_model.prediction import PredictAPI
 
 #making an instance of app
 app = Flask(__name__)
+
+
+@app.route('/')
+def home():
+    return render_template('index.html')
 
 
 #API to train the model
@@ -69,11 +74,23 @@ def predict():
     prediction = PredictAPI()
 
     if request.method == "POST":    
-        json_data = request.json
-        review = json_data["review"]
+        if request.json:
+            data = request.json
+            review = data["review"]
+        elif request.form:
+            data = dict(request.form)
+            review = data["sentence_form"]
+            # print(review)
+            # return review
+        else:
+            return "nothing_happened"
+
         clean_sentence = prediction.clean_sentence(review)
         predicted_data = prediction.predict_model_sentence(clean_sentence)
-        return predicted_data
+        return render_template("index.html",review=review,prediction=predicted_data)
+    
+        
+        
     # positive = """I was honestly expecting much worse than what I received after watching this movie. I figured it was going to be supper cheesy and dumb. But it wasn't. It wasn't amazing. It wasn't perfect. But it was entertaining. And that's really all that matters when watching a movie isn't it? I enjoyed this movie, and you likely will as well if you are into sci-fi alien action movies."""
     #
     # negative = """That feeling you get after finding movie with okay reviews and giving a chance...only to discover that it's soulless garbage?
