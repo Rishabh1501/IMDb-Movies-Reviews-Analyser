@@ -80,11 +80,11 @@ def predict():
         elif request.form:
             data = dict(request.form)
             review = data["sentence_form"]
-            # print(review)
             # return review
         else:
             return "nothing_happened"
 
+        print("Review:",review)
         clean_sentence = prediction.clean_sentence(review)
         predicted_data = prediction.predict_model_sentence(clean_sentence)
         return render_template("index.html",review=review,prediction=predicted_data)

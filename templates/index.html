@@ -61,19 +61,18 @@
 
     <!-- prediction-textarea -->
     <div class="row g-2">
-        <div class="col-md">
+        <div class="col-md m-4 mt-5">
             <form action="/predict" method="POST">
-                <div class="form-floating m-4 mt-5">
+                <div class="form-floating">
                     <textarea class="form-control" placeholder="Enter Review Here" id="sentence_form1"
                         name="sentence_form" style="width: 40vw; height: 12vh;">{{review}}</textarea>
                     <label for="forms">Enter Review</label>
-                    <button type="submit" class="btn btn-warning mt-2"
-                        style="position: relative; left: 500px;">Predict</button>
                 </div>
+                <button type="submit" class="btn btn-warning mt-2">Predict</button>
             </form>
         </div>
-        <div class="col-md">
-            <div class="form-floating ms-2 mt-5">
+        <div class="col-md m-4 mt-5">
+            <div class="form-floating">
                 <textarea readonly class="form-control" placeholder="Prediction" id="floatingTextarea2"
                     style="width: 40vw; height: 12vh;">{{prediction}}</textarea>
                 <label for="floatingTextarea2">Prediction</label>
