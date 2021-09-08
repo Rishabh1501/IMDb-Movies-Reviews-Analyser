@@ -5,10 +5,9 @@ I have made this Project to classify **Movie Reviews** \
 The Reviews gets classified into two classes: *postive* and *negative*
 <br><br>
 
-## Screenshot
-<br>
+## Screenshot<br>
 
-![App Screenshot](./screenshot.png)
+![App Screenshot](Screenshot.png)
 
 <br>
   
