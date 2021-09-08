@@ -12,6 +12,12 @@
         body {
             background-color: black;
         }
+
+        .md-button.btn:focus,
+        .md-button.btn:active {
+            outline: none !important;
+            box-shadow: none !important;
+        }
     </style>
 </head>
 
@@ -52,7 +58,42 @@
                         <a class="nav-link active" aria-current="page" style="color: rgb(245,197,24)" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color: #FFC107" href="#">Link</a>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="md-button btn" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" style="color: rgb(245,197,24)">
+                            Contact Me
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">State Your Query</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="/contact" method="POST">
+                                            <div class="mb-3">
+                                                <label for="recipient-name" class="col-form-label">Your Email:</label>
+                                                <input type="email" class="form-control" id="recipient-name" name="toemail">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="message-text" class="col-form-label">Message:</label>
+                                                <textarea class="form-control" id="message-text" name="message"></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-warning">Send message</button>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>

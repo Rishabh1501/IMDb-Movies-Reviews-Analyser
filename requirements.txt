@@ -6,3 +6,6 @@ seaborn
 matplotlib
 wordcloud
 nltk
+python-dotenv
+yagmail
+keyring
