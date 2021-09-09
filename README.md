@@ -10,7 +10,17 @@ The Reviews gets classified into two classes: *postive* and *negative*
 ![App Screenshot](Screenshot.png)
 
 <br>
-  
+
+## Features
+
+- Predicts with 89% Accuracy
+- Responsive Web App
+- Logs each action
+- Supports Every Operating System
+- Computer Generated Email Functionality
+
+<br>
+
 ## Tech Stack
 
 **Client:** HTML, CSS and Bootstrap
@@ -27,16 +37,6 @@ Install dependencies for the project using _**pip**_
     cd <project-folder>
     pip install -r requirements.txt
 ```
-<br>
-
-## Features
-
-- Predicts with 89% Accuracy
-- Responsive Web App
-- Logs each action
-- Supports Every Operating System
-- Computer Generated Email Functionality
-
 <br>
   
 ## License
