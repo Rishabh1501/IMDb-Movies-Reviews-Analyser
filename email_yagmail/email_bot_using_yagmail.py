@@ -2,7 +2,9 @@ import os
 import yagmail
 from dotenv import load_dotenv
 
+load_dotenv()
 user_name = os.getenv('EMAIL') #email of the gmail account you want to send emails from
+password = os.getenv('PASSWORD')
 
 def email_send(to,message):
   
@@ -18,7 +20,7 @@ def email_send(to,message):
     </body>
   </html>"""
   
-  yag = yagmail.SMTP(user_name)
+  yag = yagmail.SMTP(user_name,password)
   yag.send(
       to=to,
       subject="Query Regarding IMDB Review Analysis",
