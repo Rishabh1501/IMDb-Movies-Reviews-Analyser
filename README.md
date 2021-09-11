@@ -2,7 +2,8 @@
 # IMDB-Review-Analyser
 
 I have made this Project to classify **Movie Reviews** \
-The Reviews gets classified into two classes: *postive* and *negative*
+The Reviews gets classified into two classes: *postive* and *negative* \
+Deployed on Heroku: https://imdb-review-analyzer.herokuapp.com/
 <br><br>
 
 ## Screenshot<br>
@@ -38,7 +39,20 @@ Install dependencies for the project using _**pip**_
     pip install -r requirements.txt
 ```
 <br>
-  
+
+## Deployment
+
+Project can be deployled on Heroku
+
+```bash
+  git add .
+  git commit -m <message>
+  git push heroku main
+```
+Refer to the official documentation for more details: https://devcenter.heroku.com/articles/getting-started-with-python
+
+<br>  
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
