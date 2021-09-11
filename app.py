@@ -22,6 +22,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 # importing libraries
 import os
 import pandas as pd
+from dotenv import load_dotenv
 from flask import Flask, request, render_template
 
 # importing custom packages
@@ -31,9 +32,11 @@ from training_model.training import TrainingAPI
 from predicting_model.prediction import PredictAPI
 from email_yagmail.email_bot_using_yagmail import email_send
 
+#loading environment variables
+load_dotenv()
+
 #making an instance of app
 app = Flask(__name__)
-
 
 @app.route('/')
 def home():
@@ -105,4 +108,8 @@ def contact():
     return render_template("index.html")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    from waitress import serve
+    
+    port = int(os.getenv("PORT")) #to acess heroku port
+    serve(app, host="0.0.0.0", port=port) #for production
+    # app.run(host="0.0.0.0",port=port, debug=True) #for development
